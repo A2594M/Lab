@@ -1,0 +1,10 @@
+.primary
+{
+    color: orange;
+}
+
+ input
+{
+    border: 2px solid red;
+    margin: 10px;
+}
