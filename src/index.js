@@ -1,8 +1,15 @@
 import React from 'react';
 import  ReactDOM from 'react-dom' ;
 import App from './App';
-//ReactDOM.render(<h1>FirstReactApp</h1>,document.getElementById("root"));
+import Add from './components/NewP'
+
+
 ReactDOM.render(
+<>
 <App />
+<Add primary="false" />
+
+
+</>
 ,document.getElementById("root"));
 
